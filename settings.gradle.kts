@@ -1,4 +1,6 @@
 pluginManagement {
+    includeBuild("build-logic")
+
     repositories {
         google {
             content {
@@ -11,6 +13,7 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -20,6 +23,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "middle_homework_5"
+
 include(":app")
 include(":news")
 include(":settings")
