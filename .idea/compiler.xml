@@ -5,6 +5,9 @@
       <module name="build-logic.convention" target="11" />
       <module name="build-logic.convention.main" target="11" />
       <module name="build-logic.convention.test" target="11" />
+      <module name="build-logic.translationsCheck" target="11" />
+      <module name="build-logic.translationsCheck.main" target="11" />
+      <module name="build-logic.translationsCheck.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
